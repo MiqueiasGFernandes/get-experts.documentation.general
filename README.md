@@ -1,5 +1,11 @@
 # Get Experts - Documentação Geral
 
+## Descrição
+
+## Canvas
+
+![Canvas](assets/canvas-model.jpg)
+
 ## Requisitos
 ### Requisitos funcionais
 - Autenticação e autorização de usuários, sendo estes clientes e/ou profissionais;
