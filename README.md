@@ -6,6 +6,11 @@
 
 ![Canvas](assets/canvas-model.jpg)
 
+## ER
+
+![ER](assets/er.jpg)
+
+
 ## Requisitos
 ### Requisitos funcionais
 - Autenticação e autorização de usuários, sendo estes clientes e/ou profissionais;
@@ -19,7 +24,7 @@
     - Os profissionais precisam verificar obrigatoriamente seus documentos antes de interagir com um pedido de cliente;
     - Os documentos analisados devem ser aprovados por um administrador;
 - Publicação de pedidos de serviço por parte dos clientes
-    - O pedido deve possuir as o período desejado de realização, o título, descrição, autor, habilidades necessárias e categoria correlacionada
+    - O pedido deve possuir o período desejado de realização, o título, descrição, autor, habilidades necessárias e categoria correlacionada
 - Atualização de pedido
     - Deve ser possível atualizar o título, descrição e habilidades necessárias do pedido
 - Exclusão de pedido
@@ -39,7 +44,7 @@
     - Os documentos atualizados devem passar por nova avaliação e aprovação
 ### Requisitos não funcionais
 - O registro de usuários deve permitir que os usuários criem contas, com logins's oAuth do Google e Facebook;
-- Aos usuários que utilizarem autenticação não federada, deve haver uma etapa de verificação do e-mai, onde um código de confirmação será enviado ao e-mail do usuário;
+- Aos usuários que utilizarem autenticação não federada, deve haver uma etapa de verificação do e-mail, onde um código de confirmação será enviado ao e-mail do usuário;
 - A verificação deve fornecer uma variedade de documentos disponíveis: RG/CPF, CTPS, Passaporte, RNE;
 - O motivo da rejeição do documento deve ser exibido ao usuário;
 - A maioria dos endpoints devem utilizar cache para garantir uma boa performance
